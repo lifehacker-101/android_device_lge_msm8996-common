@@ -236,6 +236,10 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     net.tethering.noprovisioning=true
 
+# Vold
+PRODUCT_PROPERTY_OVERRIDES += \
+    vold.debug=true
+
 # WiFi
 PRODUCT_PROPERTY_OVERRIDES += \
     wifi.interface=wlan0 \
